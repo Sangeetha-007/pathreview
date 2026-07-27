@@ -7,7 +7,7 @@
 **Tier:** [x] Tier 1  [ ] Tier 2  [ ] Tier 3
 
 **Problem summary:**
-[test_faithfulness_checker.py's 4 tests failed, and 18 passed. The exact issue is caused at test_none_context_chunk_text - TypeError: sequence item 0: expected str instance, NoneType found. I will need to figure out a way to return a string. It could be a casting issue.]
+[test_faithfulness_checker.py's 4 tests failed, and 18 passed. The exact issue is caused at test_none_context_chunk_text - TypeError: sequence item 0: expected str instance, NoneType found. I will need to figure out a way to return a string. A successful issue fix will mean a string gets returned instead of a NoneType. Based on the checklist, I have an overall understanding of the issue. It is not my first open source contribution, however I chose Tier 1. I found the relevant code and the relevant test file. I've checked the issue comments and the ledger's Claims count, and I'm fine with how many others are on this issue.]
 
 **Branch name:** [fix/150-faithfulness_checker]
 
