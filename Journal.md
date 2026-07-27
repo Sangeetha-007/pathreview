@@ -25,7 +25,7 @@
 **Reproduction summary:**
 [1–2 sentences: How did you reproduce the issue? What did you observe?]
 
-**PLAN.md link:** [link to PLAN.md in your fork]
+**PLAN.md link:** [https://github.com/Sangeetha-007/pathreview/blob/fix/150-faithfulness_checker/PLAN.md]
 
 **Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
 
