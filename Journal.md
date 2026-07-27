@@ -17,3 +17,17 @@
 
 **Selection notes:** 
 [I felt this issue will help me further get comfortable with RAG.]
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [link to commit documenting the reproduced issue]
+
+**Reproduction summary:**
+[1–2 sentences: How did you reproduce the issue? What did you observe?]
+
+**PLAN.md link:** [link to PLAN.md in your fork]
+
+**Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
+
+**Blockers or open questions:**
+[Anything you're still uncertain about going into Week 9, or leave blank]
