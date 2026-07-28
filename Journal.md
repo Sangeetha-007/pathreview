@@ -20,10 +20,13 @@
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [link to commit documenting the reproduced issue]
+**Reproduction commit link:** 
+
+![Test1](images/1.png)
+![Test2](images/2.png)
 
 **Reproduction summary:**
-[1–2 sentences: How did you reproduce the issue? What did you observe?]
+[I reproduced the issue by running tests/unit/test_faithfulness_checker.py. A string is expected to be returned back by the function, but NoneType is being returned.]
 
 **PLAN.md link:** [https://github.com/Sangeetha-007/pathreview/blob/fix/150-faithfulness_checker/PLAN.md]
 
