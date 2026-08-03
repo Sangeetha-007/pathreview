@@ -55,15 +55,17 @@ The next steps are to complete the following steps in PLAN.md which is to fix ch
 
 **PR link:** [link to your submitted pull request]
 
-**Branch:** [the branch name you worked on, e.g. `fix/123-short-description`]
+**Branch:**: fix/150-faithfulness_checker
 
 **What you built:**
-[1–3 sentences summarizing what your fix does and how it works]
+Fixed a crash in `FaithfulnessChecker.check()` where a context chunk with `text: None` would raise an error during string concatenation. The fix changes `chunk.get("text", "")` to `chunk.get("text") or ""`, since `dict.get`'s default only applies when the key is missing, not when its value is explicitly `None` — the `or ""` now coerces both cases to an empty string before joining.
 
 **Tests added or updated:**
-[Which test files did you touch? What do they cover?]
+Inside of tests/unit/test_faithfulness_checker.py, I added:
+test_check_handles_none_text_mixed_with_valid_chunks: Test that a None-text chunk mixed with valid chunks doesn't crash and still scores using the valid chunk.
+test_check_handles_all_none_text_chunks: Test that all-None-text context chunks don't crash and yield a score of 0.0.
 
-**Self-review confirmation:** [ ] make check passes  [ ] make test-unit passes
+**Self-review confirmation:** [ ] make check passes  [x] make test-unit passes
 
 **Draft PR feedback received from:** [name or Slack handle, or "none"]
 
