@@ -34,3 +34,37 @@
 
 **Blockers or open questions:**
 [Anything you're still uncertain about going into Week 9, or leave blank]
+
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I implemented test_check_raises_when_chunk_text_is_none() inside of test_faithfulness_checker.py. 
+
+**Next steps:**
+The next steps are to complete the following steps in PLAN.md which is to fix check(). 
+
+**Blockers:**
+[Anything slowing you down? Or leave blank.]
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [link to your submitted pull request]
+
+**Branch:** [the branch name you worked on, e.g. `fix/123-short-description`]
+
+**What you built:**
+[1–3 sentences summarizing what your fix does and how it works]
+
+**Tests added or updated:**
+[Which test files did you touch? What do they cover?]
+
+**Self-review confirmation:** [ ] make check passes  [ ] make test-unit passes
+
+**Draft PR feedback received from:** [name or Slack handle, or "none"]
+
+
