@@ -65,7 +65,8 @@ Inside of tests/unit/test_faithfulness_checker.py, I added:
 test_check_handles_none_text_mixed_with_valid_chunks: Test that a None-text chunk mixed with valid chunks doesn't crash and still scores using the valid chunk.
 test_check_handles_all_none_text_chunks: Test that all-None-text context chunks don't crash and yield a score of 0.0.
 
-**Self-review confirmation:** [ ] make check passes  [x] make test-unit passes
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
+Note*: It passes for the bug I worked on, not for other issues. 
 
 **Draft PR feedback received from:** [name or Slack handle, or "none"]
 
