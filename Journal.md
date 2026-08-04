@@ -53,7 +53,7 @@ The next steps are to complete the following steps in PLAN.md which is to fix ch
 
 ### Check-in 2 (end of week)
 
-**PR link:** [link to your submitted pull request]
+**PR link:** : https://github.com/ascherj/pathreview/pull/715
 
 **Branch:**: fix/150-faithfulness_checker
 
