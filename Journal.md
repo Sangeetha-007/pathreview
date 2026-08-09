@@ -71,3 +71,44 @@ Note*: It passes for the bug I worked on, not for other issues.
 **Draft PR feedback received from:** [name or Slack handle, or "none"]
 
 
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No — still awaiting review
+
+**Summary of feedback:**
+No reviewer came in. I can get it reviewed by AI, but would prefer a human reviewer. 
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[Be specific — what part of the process, codebase, or workflow
+surprised you?]
+Understanding pytests for RAG was the most challenging for me. I never worked with a repo with this many issues listed. Also, I never experienced a ruff error before. This was my first time working with ruff errors. 
+
+**What did you learn about working in a large codebase?**
+[What's different about contributing to someone else's production code
+vs. building your own project?]
+What I find different about contributing to someone else's production code vs my own project, is the level of responsibility. When it comes to my own personal projects, they are just projects for my own understanding or analysis. However, while contributing to a production code repo, it's best to get everything reviewed and tested more than once. 
+
+**How did AI tools help — and where did they fall short?**
+[Where was AI assistance most useful this module? Where did you need
+to go beyond what AI could give you?]
+AI tools helped me create pytests. Although, I ran and tested the tests myself, I made Claude check once more for edge cases or just in case I forgot anything. 
+
+**What would you do differently if you started over?**
+[Issue selection, planning, implementation, or process — anything
+you'd change?]
+I got sick during the process. If I hadn't gotten sick I would have created the pull request earlier and gotten it reviewed. Another thing I would do differently is read documentation more slowly and rely less on AI. 
+
+**What are you most proud of from this module?**
+[One thing — it doesn't have to be the PR itself.]
+I am most proud of attempting a RAG pull request. I have done PRs before, but nothing related to AI. 
+
