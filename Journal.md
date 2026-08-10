@@ -101,14 +101,14 @@ What I find different about contributing to someone else's production code vs my
 **How did AI tools help — and where did they fall short?**
 [Where was AI assistance most useful this module? Where did you need
 to go beyond what AI could give you?]
-AI tools helped me create pytests. Although, I ran and tested the tests myself, I made Claude check once more for edge cases or just in case I forgot anything. 
+AI tools helped me create pytests. Although, I ran and tested the tests myself, I made Claude check once more for edge cases or just in case I forgot anything. Claude did fall short in how it told me to fix all the RAG issues and other issues in the repo before pushing the code for the pull request. I rejected it's suggestions for that. 
 
 **What would you do differently if you started over?**
 [Issue selection, planning, implementation, or process — anything
 you'd change?]
-I got sick during the process. If I hadn't gotten sick I would have created the pull request earlier and gotten it reviewed. Another thing I would do differently is read documentation more slowly and rely less on AI. 
+I got sick during the process. If I hadn't gotten sick I would have created the pull request earlier and gotten it reviewed. Another thing I would do differently is read documentation more slowly. This would allow me to get a better picture of the full application, rather than just the faithfulness checker files I worked with. Another thing I would do differently is rely less on AI. 
 
 **What are you most proud of from this module?**
 [One thing — it doesn't have to be the PR itself.]
-I am most proud of attempting a RAG pull request. I have done PRs before, but nothing related to AI. 
+I am most proud of attempting a RAG pull request. I have done PRs before, but nothing related to AI. This is also my first PR where this many people were interacting. I am also proud of writing docstrings for my test functions!
 
